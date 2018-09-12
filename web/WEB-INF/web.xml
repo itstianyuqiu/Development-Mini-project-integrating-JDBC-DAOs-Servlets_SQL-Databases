@@ -27,22 +27,4 @@
         <url-pattern>/question1/new</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>JSONSavingServlet</servlet-name>
-        <servlet-class>ictgradschool.web.lab15.ex4.JSONSavingServlet</servlet-class>
-        <init-param>
-            <param-name>json-save-directory</param-name>
-            <!-- Make sure to update this so that your JSON documents save
-                 to the correct location on your local machine *and* the
-                 remote server                                             -->
-            <param-value>Some/Path/To/Places</param-value>
-        </init-param>
-    </servlet>
-
-
-    <servlet-mapping>
-        <servlet-name>JSONSavingServlet</servlet-name>
-        <url-pattern>/question4</url-pattern>
-    </servlet-mapping>
-
 </web-app>
